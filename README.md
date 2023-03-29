@@ -4,4 +4,6 @@
 - előző rendelesek
 - kedvezmények
 - responzivitas
-- elerhetőségek
+- elérhetőségek
+- regisztráció
+- szezonális ajánlatok
