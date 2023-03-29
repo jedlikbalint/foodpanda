@@ -7,3 +7,4 @@
 - elérhetőségek
 - regisztráció
 - szezonális ajánlatok
+- bemutatkozas
