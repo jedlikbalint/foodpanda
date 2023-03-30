@@ -7,4 +7,8 @@
 - elérhetőségek
 - regisztráció
 - szezonális ajánlatok
-- bemutatkozas
+- bemutatkozás
+
+# tagok:
+- KK
+- Kocsis
