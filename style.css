@@ -1,37 +1,98 @@
+.szovegKozepen {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
-#button {
-    display: inline-block;
-    background-color: #FF9800;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-  }
-  #button::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-  }
-  #button:hover {
-    cursor: pointer;
-    background-color: #333;
-  }
-  #button:active {
-    background-color: #555;
-  }
-  #button.show {
-    opacity: 1;
-    visibility: visible;
-  }
+
+.kozep {
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+
+
+}
+
+
+.szovegNarancs{
+  text-decoration: none;
+  color: black;
+}
+
+
+.szovegNarancs:hover{
+  text-decoration: none;
+  color: rgb(7, 255, 181);
+}
+
+
+.szovegNarancs2 {
+  color: white;
+
+
+}
+
+.szovegNarancs2:hover {
+  color: rgb(7, 255, 181);
+  text-decoration: underline;
+}
+
+
+.szovegDoboz{
+  border: solid 1px rgb(7, 255, 181);
+  text-decoration: none;
+  color: white;
+  background-color: rgb(7, 255, 181);
+  font-size: large;
+}
+
+
+
+.szovegDoboz:hover{
+  background-color: transparent;
+  color: rgb(7, 255, 181);
+}
+
+.szovegDoboz2{
+  border: solid 1px white;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+
+
+.szovegDoboz2:hover{
+  background-color: transparent;
+  color: rgb(7, 255, 181);
+  border: solid 1px rgb(7, 255, 181);
+}
+
+
+.kartya:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+.footer{
+  background-color: deeppink;
+}
+
+.pink{
+  background-color: deeppink;
+}
+.telefon{
+  height: 10%;
+}
