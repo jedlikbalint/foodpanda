@@ -78,7 +78,7 @@
       </nav>
 
 
-      <div class="card mx-auto my-5 pink p-3" style="width: 45rem;">
+      <div class="card mx-auto my-5 pink p-3 col-m-6 col-8" >
         <img src="kepek/10015.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title white" >Lépjen velünk kapcsolatba !</h5>
@@ -125,7 +125,14 @@
                 Nem
             </label>
         </div></p>
-        <button type="button" class="btn btn-light">Küldés</button>
+        <button type="button" onclick="myFunction()" class="btn btn-light">Küldés</button>
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Köszönjük megkeresését, hamarosan felvesszük a kapcsolatot önnel";
+        }
+</script>
     </div>
 
 
