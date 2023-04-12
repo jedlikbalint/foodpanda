@@ -106,3 +106,9 @@ transform: translate(-50%, -50%);
 .white{
   color: white;
 }
+
+.felsorolas{
+  list-style-image: url("kepek/Logo_foodpanda_white.png");
+  height: 5px;
+  width: 5px;
+}
