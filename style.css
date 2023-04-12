@@ -112,3 +112,19 @@ transform: translate(-50%, -50%);
   height: 5px;
   width: 5px;
 }
+#footer1{
+  margin-top: 26%;
+}
+#my{
+  margin-top: 15%;
+  background-color: deeppink;
+  width: 50%;
+}
+
+#demo{
+  color: white;
+  font-weight: bold;
+}
+#belepes{
+  background-color: rgb(7, 255, 181);
+}
