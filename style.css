@@ -131,3 +131,8 @@ transform: translate(-50%, -50%);
 #log{
   color: black;
 }
+#elerhetoseg{
+  background-image: url('kepek/mobilalkalmazasok_az_agrariumban_hogyan_valasszak_00.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
