@@ -121,10 +121,12 @@ transform: translate(-50%, -50%);
   width: 50%;
 }
 
-#demo{
-  color: white;
-  font-weight: bold;
-}
+
 #belepes{
   background-color: rgb(7, 255, 181);
+}
+#elerhetoseg{
+  background-image: url('kepek/mobilalkalmazasok_az_agrariumban_hogyan_valasszak_00.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
