@@ -134,7 +134,7 @@ transform: translate(-50%, -50%);
   color: black;
 }
 #elerhetoseg{
-  background-color: rgb(7, 255, 181);
+  background: none;
 }
 .bemutatkozas{
   width: 80%;
@@ -164,4 +164,10 @@ transform: translate(-50%, -50%);
 }
 #demo{
   color: white;
+}
+.elerhetoseghatter{
+  background-image: url("kepek/foodpanda-592002.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
 }
