@@ -148,16 +148,20 @@ transform: translate(-50%, -50%);
 }
 
 .futar{
-  background-image: url("kepek/foodpanda_03.jpg");
+  background-image: url("kepek/central-0707014138-e1679999371836-1024x576.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
+  
 }
 
 .urlap{
   background: none;
-  opacity: 0.5;
 }
-.urlap:hover{
-  opacity: 1;
+
+.gomb{
+  background-color: rgb(7, 255, 181);
+}
+#demo{
+  color: white;
 }
