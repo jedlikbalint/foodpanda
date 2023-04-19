@@ -117,7 +117,12 @@ transform: translate(-50%, -50%);
 }
 #my{
   margin-top: 15%;
-  background-color: deeppink;
+  opacity:0.5;
+  width: 50%;
+}
+#my:hover{
+  margin-top: 15%;
+  opacity:1;
   width: 50%;
 }
 
@@ -133,4 +138,11 @@ transform: translate(-50%, -50%);
 }
 .bemutatkozas{
   width: 80%;
+}
+.loginhatter{
+  background-image: url("kepek/a0f45410f43cb8ea0566d5108b404010.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
 }

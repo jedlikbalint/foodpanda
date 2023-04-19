@@ -11,28 +11,29 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
-    <div class="mx-auto mb-5 border rounded-5 p-2 animate__animated animate__slideInDown " id="my">
-        <h1 class="text-center fw-bold">Üdvözlünk a Foodpandánál, kérünk jelentkezz be!</h1>
-    <form class="">
-      <div class="form-group ">
-        <label for="exampleInputEmail1">E-mail cím</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="írja be az E-mailt">
-        <small id="emailHelp" class="form-text text-muted"></small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Jelszó</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Adja meg a jelszót">
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Bejelentkezve maradok</label>
-      </div>
-      <button type="submit" class="btn" id="belepes"><a href="kosar.html" class="link" id="log">Belépés</a></button>
-      <p class="text-center fw-bold">(adatait soha nem fogjuk megosztani senki mással)</p>
-    </form>
+<body class="loginhatter">
     
+  <div class="mx-auto mb-5 border border-black rounded-5 p-2 border-3 animate__animated animate__slideInDown " id="my">
+      <h1 class="text-center fw-bold text-white">Üdvözlünk a Foodpandánál, kérünk jelentkezz be!</h1>
+  <form class="">
+    <div class="form-group p-2">
+      <label class="text-white" for="exampleInputEmail1">E-mail cím</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="írja be az E-mailt">
+      <small id="emailHelp" class="form-text text-muted"></small>
     </div>
+    <div class="form-group p-2">
+      <label class="text-white" for="exampleInputPassword1">Jelszó</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Adja meg a jelszót">
+    </div>
+    <div class="form-check m-2">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label text-white" for="exampleCheck1">Bejelentkezve maradok</label>
+    </div>
+    <button type="submit" class="btn" id="belepes"><a href="korabbi.html" class="link" id="log">Belépés</a></button>
+    <p class="text-center fw-bold text-white">(adatait soha nem fogjuk megosztani senki mással)</p>
+  </form>
+  
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="function.js"></script>
 </body>
