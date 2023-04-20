@@ -76,36 +76,31 @@
           </div>
         </div>
       </nav>
+
       <div class="container-fluid">
-        <div id="carouselExampleIndicators" class="carousel slide my-5 m-auto" data-bs-ride="carousel" style="width: 80%;">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="kepek/ajanlat1.gif" class="d-block w-100" alt="1. ajánlat" title="1. ajánlat">
-            </div>
-            <div class="carousel-item">
-              <img src="kepek/ajanlat2.gif" class="d-block w-100" alt="2. ajánlat" title="2. ajánlat">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        <h1 class="text-center bold">Kosár tartalma</h1>
       </div>
+
+
+
+      
         
-      <button onclick="oldalTeteje()" id="gomb" class="text-center  border-0 footer"><p class=""><span class="szovegNarancs2"><img style="height: 35px;" src="kepek/felnyil.png" alt=""> Vissza a tetejére</span></p></button>
+      <div class="row w-100 mx-auto  footer">
+        <div class="col-md-4 mt-3">
+          <p class="text-center text-white text-md-end text-sm-center "><a class="szovegDoboz2 p-3" href="https://www.instagram.com/foodpandahu/?hl=hu"><img class="p-2" src="kepek/insta35px.png" alt="instagram" title="instagram">Instagram</a></p>
+        </div>
+      
+        <div class="col-md-4 mt-3">
+          <p class="text-center text-white text-md-center text-sm-center "><a class="szovegDoboz2 p-3" href="https://www.facebook.com/foodpanda.hu/"><img class="p-2" src="kepek/facebook35px.png" alt="facebook" title="facebook">Facebook</a></p>
+        </div>
+      
+        <div class="col-md-4 mt-3">
+          <p class="text-center text-white text-md-start text-sm-center "><a class="szovegDoboz2 p-3" href="https://twitter.com/FoodpandaHU"><img class="p-2" src="kepek/twitter35px.png" alt="twitter" title="twitter">Twitter</a></p>
+        </div>
+      
+      
+      
+      <button onclick="oldalTeteje()" id="gomb" class="text-center  border-0 footer"><p class=""><span class="szovegNarancs2"><img style="height: 35px;" > Vissza a tetejére</span></p></button>
       
       <script>
         let gombom = document.getElementById("gomb")
