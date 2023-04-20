@@ -147,12 +147,9 @@ transform: translate(-50%, -50%);
 
 }
 
+
 .futar{
-  background-image: url("kepek/central-0707014138-e1679999371836-1024x576.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-  
+  background-color: rgb(7, 255, 181);
 }
 
 .urlap{
@@ -160,8 +157,11 @@ transform: translate(-50%, -50%);
 }
 
 .gomb{
-  background-color: rgb(7, 255, 181);
+  background-color: deeppink;
 }
 #demo{
   color: white;
+}
+#gombk{
+  color: black;
 }
