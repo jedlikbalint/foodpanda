@@ -126,6 +126,9 @@ transform: translate(-50%, -50%);
   width: 70%;
 }
 
+.altmy{
+  margin-top: 5%;
+}
 
 #belepes{
   background-color: rgb(7, 255, 181);
@@ -165,10 +168,9 @@ transform: translate(-50%, -50%);
 #gombk{
   color: black;
 }
-<<<<<<< HEAD
 .kosarhatter{
   background-color: #f2f2f2;
-=======
+}
 .bemut1{
   background-color: rgb(7, 255, 181);
 }
@@ -180,5 +182,15 @@ transform: translate(-50%, -50%);
 }
 .alink{
   text-decoration: none;
->>>>>>> ab0006cfd003b36a84037ec74bef5baa5d516e6f
+  color: black;
+}
+#submitgombrendeles{
+  background-color: #505050;
+  width: 40%;
+}
+#koszonet{
+  margin-top: 25%;
+}
+.kosarmy{
+  margin-top: 5%;
 }
