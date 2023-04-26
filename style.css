@@ -173,6 +173,7 @@ transform: translate(-50%, -50%);
 }
 .bemut1{
   background-color: rgb(7, 255, 181);
+  width: 80%;
 }
 .bemut2{
   background-color: deeppink;
@@ -193,4 +194,16 @@ transform: translate(-50%, -50%);
 }
 .kosarmy{
   margin-top: 5%;
+}
+.kosaricon{
+  width: 10%;
+}
+.kosaricon1{
+  width: 8%;
+}
+.rowfel{
+  margin-bottom: 2%;
+}
+.video{
+  width: 80%;
 }
