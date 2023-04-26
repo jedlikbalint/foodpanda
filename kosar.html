@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Szezonális ajánlatok</title>
-  <link rel="shortcut icon" href="FoodPanda-logo.ico" type="image/x-icon">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"><link>
+    <link rel="shortcut icon" href="FoodPanda-logo.ico" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -85,51 +88,51 @@
   </div>
   </nav>
 
-  <div class="container-fluid">
-    <h1 class="text-center bold">Kosár tartalma</h1>
+  <div class="container-fluid animate__animated animate__slideInDown">
+    <h1 class="text-center fw-bolder my-5">Kosár tartalma</h1>
     <div class="row container m-auto">
       <div class="col-lg-6 col-md-12 p-2 kosarhatter my-5">
         <form action="">
           <div class="row my-5">
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputEmail1" class="form-label">Vezetéknév</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputEmail1" class="form-label">Vezetéknév <img src="kepek/nevek ikon.png" alt="vezetéknév ikon" class="kosaricon1"></label>
               <input class="form-control" type="text">
             </div>
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputPassword1" class="form-label">Keresztnév</label>
-              <input class="form-control" type="text">
-            </div>
-          </div>
-          <div class="row my-5">
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input class="form-control" type="text">
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputPassword1" class="form-label">Jelszó</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputPassword1" class="form-label">Keresztnév <img src="kepek/nevek ikon.png" alt="keresztnév ikon" class="kosaricon1"></label>
               <input class="form-control" type="text">
             </div>
           </div>
           <div class="row my-5">
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputEmail1" class="form-label">település</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputEmail1" class="form-label">Email <img src="kepek/email ikon.png" alt="e-mail ikon" class="kosaricon1"></label>
               <input class="form-control" type="text">
             </div>
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputPassword1" class="form-label">Utca, Házszám</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputPassword1" class="form-label">Jelszó <img src="kepek/jelszo ikon.png" alt="jelszó ikon" class="kosaricon1"></label>
               <input class="form-control" type="text">
             </div>
           </div>
           <div class="row my-5">
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputEmail1" class="form-label">Kártyaszám</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputEmail1" class="form-label">település <img src="kepek/homeikonmenu.png" alt="település ikon" class="kosaricon"1></label>
               <input class="form-control" type="text">
             </div>
-            <div class="col-lg-6 col-md-12">
-              <label for="exampleInputPassword1" class="form-label">CCV</label>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputPassword1" class="form-label">Utca, Házszám <img src="kepek/cím-ikon.png" alt="cím ikon" class="kosaricon1"></label>
+              <input class="form-control" type="text">
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-lg-6 col-md-12my-2">
+              <label for="exampleInputEmail1" class="form-label">Kártyaszám <img src="kepek/ikon_bankkartya.png" alt="bankkártya ikon" class="kosaricon"></label>
+              <input class="form-control" type="text">
+            </div>
+            <div class="col-lg-6 col-md-12 my-2">
+              <label for="exampleInputPassword1" class="form-label">CCV <img src="kepek/CCV ikon.png" alt="CCV ikon" class="kosaricon"></label>
               <input class="form-control" type="number">
             </div>
-            <div class="row">
+            <div class="row rowfel">
               <button type="submit" id="submitgombrendeles" class="m-auto btn p-2 my-2 bg-secondary"><a class="alink" href="koszonet.html">Rendelés leadása</a></button>
             </div>
           </div>
