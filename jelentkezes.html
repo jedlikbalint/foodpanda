@@ -77,73 +77,73 @@
         </div>
       </nav>
     
-      <div class="card mx-auto my-5  futar p-3 col-6" >
+      <div class="row">
+        <div class="card mx-auto my-5  futar p-3 col-md-6 col-12" >
         
-        <div class="card-body">
-          <h5 class="card-title " >Jelentkezz futárnak !</h5>
-          <p class="card-text"><div class="input-group mb-3">
-            
-            <input type="text" class="form-control" placeholder="Teljes név" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="email cím" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            
-          </div>
-          
-          <div class="mb-3">
-            <label for="basic-url" class="form-label white">Telefonszám</label>
-            <div class="input-group">
-              <span class="input-group-text" id="basic-addon3">+36</span>
-              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+          <div class="card-body">
+            <h5 class="card-title " >Jelentkezz futárnak !</h5>
+            <p class="card-text"><div class="input-group mb-3">
+        
+              <input type="text" class="form-control" placeholder="Teljes név" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="form-text " id="basic-addon4">pl. +36 70 3229711</div>
-          </div>
-          
-          <input type="text" class="form-control my-3" placeholder="Teljes név" aria-label="Username" aria-describedby="basic-addon1">
+        
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Város neve" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="email cím" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        
             </div>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Mikor tudna dolgozni ?</option>
-              <option value="1">Délelőtt</option>
-              <option value="2">Délutan</option>
-              <option value="3">egész nap</option>
-            </select>
-
+        
             <div class="mb-3">
-              <label for="formFile" class="form-label" >Önéletrajz feltöltése</label>
-              <input class="form-control" type="file" id="formFile">
+              <label for="basic-url" class="form-label white">Telefonszám</label>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon3">+36</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+              </div>
+              <div class="form-text " id="basic-addon4">pl. +36 70 3229711</div>
             </div>
+        
+            <input type="text" class="form-control my-3" placeholder="Teljes név" aria-label="Username" aria-describedby="basic-addon1">
+              <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Város neve" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Mikor tudna dolgozni ?</option>
+                <option value="1">Délelőtt</option>
+                <option value="2">Délutan</option>
+                <option value="3">egész nap</option>
+              </select>
+              <div class="mb-3">
+                <label for="formFile" class="form-label" >Önéletrajz feltöltése</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+        
+            <div class="alert alert-warning" role="alert">
+              Az önéletrajzot kizárólag pdf vagy docx formátumban fogadjuk el ! Ügyeljen rá , hogy amennyiben nem tölt fel önéletrajzot jelentkezését érvénytelennek tekintjuk.
+              </div>
+          <h5 >Rendelkezik saját járművel ?</h5>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"checked>
+              <label class="form-check-label " for="flexRadioDefault1">
+                  igen
+              </label>
           </div>
-          
-          <div class="alert alert-warning" role="alert">
-            Az önéletrajzot kizárólag pdf vagy docx formátumban fogadjuk el ! Ügyeljen rá , hogy amennyiben nem tölt fel önéletrajzot jelentkezését érvénytelennek tekintjuk.
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+              <label class="form-check-label " for="flexRadioDefault2">
+                  Nem
+              </label>
+          </div></p>
+          <button type="button" onclick="myFunction()" class="btn btn-light gomb">Küldés</button>
+          <p id="gombk"></p>
+          <script>
+          function myFunction() {
+            document.getElementById("gombk").innerHTML  = "Köszönjük megkeresését, hamarosan felvesszük a kapcsolatot önnel";
+          }
+        </script>
             </div>
-        <h5 >Rendelkezik saját járművel ?</h5>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"checked>
-            <label class="form-check-label " for="flexRadioDefault1">
-                igen
-            </label>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-            <label class="form-check-label " for="flexRadioDefault2">
-                Nem
-            </label>
-        </div></p>
-        <button type="button" onclick="myFunction()" class="btn btn-light gomb">Küldés</button>
-        <p id="gombk"></p>
-
-        <script>
-        function myFunction() {
-          document.getElementById("gombk").innerHTML  = "Köszönjük megkeresését, hamarosan felvesszük a kapcsolatot önnel";
-        }
-</script>
-    </div>
-</div>
-</div>
+        </div>
+      </div>
 
 
      
