@@ -207,3 +207,12 @@ transform: translate(-50%, -50%);
 .video{
   width: 80%;
 }
+#linkalkohol{
+  text-decoration: none;
+  color: black;
+
+}
+#alk{
+  margin-top: 10%;
+  border: 2px solid red;
+}
